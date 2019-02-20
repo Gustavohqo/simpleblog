@@ -1,7 +1,7 @@
 ((showdown) => {
     const document = window.document;
 
-    var bodyNode = document.getElementsByTagName('body')[0];
+    var bodyNode = document.getElementsByClassName('sample')[0];
     var showdown = new showdown.Converter(),
    
     text = 

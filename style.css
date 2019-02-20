@@ -1,0 +1,30 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.editor_container {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.sample {
+    width: 100%;
+}
+
+.half {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 1em;
+}
+
+.editor textarea {
+    width: 100%;
+}
